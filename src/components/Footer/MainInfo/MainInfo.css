@@ -1,0 +1,41 @@
+.MainInfo {
+  width: 100%;
+  color: #6e6e73;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  border-bottom: rgb(80, 80, 80) 1px solid;
+}
+
+@media (max-width: 1024px) {
+  .MainInfo {
+    max-width: 720px;
+  }
+}
+
+.MainInfo a{
+    color: #a1a1a6;
+}
+
+.MainInfo a:hover{
+    color: white;
+}
+
+.MainInfo ol > li{
+    margin-bottom: 4px;
+}
+
+@media (max-width: 1024px) {
+  .MainInfo {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .MainInfo {
+    max-width: 1024px;
+  }
+}

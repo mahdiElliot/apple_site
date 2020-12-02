@@ -1,0 +1,39 @@
+.MainFooter {
+  width: 100%;
+  margin-top: 12px;
+  color: #6e6e73;
+  border-bottom: #6e6e73 1px solid;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.MainFooter .sections {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.MainFooter .sections2{
+  border-top: #6e6e73 1px solid;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px){
+  .MainFooter{
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .MainFooter {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .MainFooter {
+    max-width: 1024px;
+  }
+}

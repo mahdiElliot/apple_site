@@ -1,0 +1,58 @@
+.Info{
+    width: 100%;
+    text-justify: inter-word;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.Info .content{
+    width: 670px;
+    text-align: center;
+
+}
+
+.Info p{
+    color:rgb(172, 172, 172);
+    font-size: 180%;
+}
+
+.Info h1{
+    color: gray;
+    font-size: 600%;
+}
+
+.Info .brand{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+.Info .brand p{
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.Info .cost{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    justify-content: center;
+}
+
+.Info .cost > a,span{
+    color: white;
+    font-size: 180%;
+    margin-right: 16px;
+}
+
+
+@media(max-width: 1200px){
+    .Info{
+        top:550px;
+    } 
+}

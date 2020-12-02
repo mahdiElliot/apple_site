@@ -1,0 +1,19 @@
+.Section{
+    text-align: left;
+}
+
+.Section p{
+    color: white;
+    cursor: default;
+}
+
+.Section ul{
+    list-style-type: none;
+    color: #a1a1a6;
+    padding-left: 0;
+
+}
+
+.Section ul > li{
+    margin-bottom: 8px;
+}

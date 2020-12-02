@@ -1,0 +1,90 @@
+.CopyRight {
+  width: 100%;
+  color: #6e6e73;
+  padding-top: 8px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.CopyRight p:first-child {
+  flex: 12%;
+  margin-bottom: 0 !important;
+}
+
+.CopyRight a {
+  color: #a1a1a6;
+}
+
+.CopyRight a:hover {
+  color: white;
+}
+
+.CopyRight .terms {
+  text-align: left;
+  flex: 44%;
+}
+
+.CopyRight .terms > a {
+  border-right: #a1a1a6 1px solid;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.CopyRight .terms a:first-child {
+  padding-left: 0;
+}
+
+.CopyRight .terms a:last-child {
+  padding-right: 0;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .CopyRight {
+    flex-direction: column;
+  }
+  .CopyRight p:first-child {
+    flex: 100%;
+  }
+  .CopyRight a:first-child {
+    flex: 100%;
+    margin-bottom: 12px;
+  }
+  .CopyRight .terms {
+    flex: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .CopyRight p:first-child {
+    flex: 50%;
+  }
+  .CopyRight a:last-child {
+    flex: 50%;
+  }
+  .CopyRight .terms {
+    flex: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .CopyRight {
+    max-width: 960px;
+  }
+
+  .CopyRight p:first-child {
+    flex: 17%;
+  }
+
+  .CopyRight .terms {
+    flex: 39%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .CopyRight {
+    max-width: 1024px;
+  }
+}

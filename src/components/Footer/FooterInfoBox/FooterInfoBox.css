@@ -1,0 +1,51 @@
+.FooterInfoBox {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  display: block;
+  cursor: pointer;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  flex: 20%;
+}
+
+.FooterInfoBox p:nth-child(2) {
+  margin-top: 12px;
+  font-size: 130%;
+  margin-bottom: 0;
+}
+
+.FooterInfoBox p:nth-child(3) {
+  font-size: 110%;
+}
+
+.FooterInfoBox a {
+  font-size: 110%;
+}
+
+@media (max-width: 1024px) {
+  footer .FooterInfoBox {
+      flex: 40%;
+      padding-left: 32px;
+      padding-right: 32px;
+  }
+
+  .FooterInfoBox p:nth-child(2) {
+    margin-top: 12px;
+    font-size: 120%;
+    margin-bottom: 0;
+  }
+  
+  .FooterInfoBox p:nth-child(3) {
+    font-size: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+
+  }
+  
+  .FooterInfoBox a {
+    font-size: 100%;
+  }
+}

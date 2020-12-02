@@ -1,0 +1,173 @@
+.Box {
+  width: 100%;
+  text-justify: inter-word;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: white;
+}
+
+
+.Box video {
+  width: 100%;
+  border-radius: 32px;
+}
+
+.Box .content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 36px;
+  text-align: left;
+}
+
+.Box .content .center{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Box .content .intro{
+  flex: 40%;
+  text-align: left;
+}
+
+.Box .extra{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 60%;
+  align-items: center;
+}
+
+.Box .content .extra .intro2{
+  flex: 64%;
+  justify-content: center;
+  text-align: center;
+}
+
+.Box .content .extra h1{
+  font-size: 900%;
+}
+
+.Box .content .extra .intro3{
+  flex:36%;
+  text-align: center;
+}
+
+.Box .content button{
+  font-size: 200%;
+  background: transparent;
+  color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 36px;
+}
+
+.Box p {
+  font-size: 200%;
+}
+
+.Box h1{
+  font-size: 600%;
+}
+
+@media (max-width: 1400px) {
+  .Box .content .intro{
+    flex: 55%;
+  }
+
+  .Box .extra{
+    flex: 45%;
+  }
+
+  .Box .content .intro h1{
+    font-size: 550%;
+  }
+
+  .Box p{
+    font-size: 150%;
+  }
+
+  .Box .content button{
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 1200px){
+  .Box .content .intro h1{
+    font-size: 500%;
+  }
+
+  .Box p{
+    font-size: 120%;
+  }
+
+  .Box .content button{
+    font-size: 100%;
+  }
+
+  .Box .content .extra h1{
+    font-size: 700%;
+  }
+}
+
+@media(max-width: 992px){
+  .Box .content .intro{
+    flex: 64%;
+  }
+
+  .Box .extra{
+    flex: 36%;
+  }
+
+  .Box .content .intro h1{
+    font-size: 450%;
+  }
+
+  .Box p{
+    font-size: 120%;
+  }
+
+  .Box .content .extra h1{
+    font-size: 500%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Box {
+    width: 95%;
+  }
+
+  .Box .content .intro{
+    flex: 64%;
+  }
+
+  .Box .extra{
+    flex: 36%;
+  }
+
+  .Box .content .intro h1{
+    font-size: 300%;
+  }
+
+  .Box p{
+    font-size: 100%;
+  }
+
+  .Box .content .extra h1{
+    font-size: 350%;
+  }
+
+  .Box .content button{
+    font-size: 80%;
+  }
+}

@@ -1,0 +1,30 @@
+.FooterLink {
+  text-align: left;
+  align-items: top;
+  display: flex;
+  align-items: center;
+}
+
+.FooterLink ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 4px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.FooterLink ul li {
+  float: left;
+  padding: 0;
+}
+.FooterLink ul li a {
+  color: #a1a1a6;
+}
+.FooterLink ul li a:hover {
+  color: white;
+}
+
+.FooterLink ul > li {
+  margin-right: 12px;
+}
