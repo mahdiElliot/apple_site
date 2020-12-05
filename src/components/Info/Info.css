@@ -56,3 +56,9 @@
         top:550px;
     } 
 }
+
+@media(max-width: 768px){
+    .Info .content{
+        width: 100%;
+    }
+}

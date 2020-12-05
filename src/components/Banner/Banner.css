@@ -20,6 +20,6 @@
 
 @media(max-width: 768px){
     .Banner img{
-        width: 600px;
+        width: 95%;
     }
 }

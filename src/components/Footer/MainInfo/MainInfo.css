@@ -34,8 +34,15 @@
   }
 }
 
+@media (max-width: 768px){
+ .MainInfo{
+   width: 95%;
+ }
+}
+
 @media (min-width: 1200px) {
   .MainInfo {
     max-width: 1024px;
   }
 }
+
